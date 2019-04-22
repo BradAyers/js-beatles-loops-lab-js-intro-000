@@ -22,4 +22,5 @@ function iLoveTheBeatles(num) {
     beatlesLove = [...beatlesLove, "I love the Beatles!"];
     num++;
   } while (num < 15);
+  return beatlesLove;
 }
